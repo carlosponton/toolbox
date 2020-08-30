@@ -23,5 +23,6 @@ Construido con:
 - [Redux](https://redux.js.org/) - A Predictable State Container for JS Apps
 
 ### Authors
-* [Carlos A. Pontón Rondón
-carlos.ponton2@gmail.com
+* Carlos A. Pontón Rondón
+
+* carlos.ponton2@gmail.com
