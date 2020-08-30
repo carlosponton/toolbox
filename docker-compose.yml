@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  backend:
+    build: backend
+    command: npm run start
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./backend/:/app
+      - /app/node_modules
+
+  frontend:
+    build: frontend
+    command: npm run start
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/:/app
+      - /app/node_modules
+    stdin_open: true
